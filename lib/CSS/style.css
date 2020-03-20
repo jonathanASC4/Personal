@@ -10,15 +10,16 @@
 }
 
 body{
-    background-color: #cccccc;
+    background-color: #bbddff;
 }
 
 header{
-    background-image: url(ocean.jpg);
+    background-image: url(../images/ocean.jpg);
     /* image from https://www.flickr.com/photos/apasciuto/32972768576 */
     background-size: 100%;
     background-position: center;
     border-bottom: 10px solid #181818;
+    margin-bottom: 30px;;
 }
 
 .row{
@@ -72,23 +73,48 @@ th{
     display: none;
 }
 
+section{
+    position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+span{
+    font-family: Cambria;
+    font-size: 200%;
+    border-bottom: 1px solid black;
+}
+
+.floatRight{
+    float: right;
+    margin-right: 20px;
+}
+
+.bodyP{
+    text-indent: 20px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+
 footer{
     background-color: black;
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 55px;
 }
 
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 190%;
 }
 
 h2{
     width: 100%;
     text-align: center;
-    font-size: 110%;
+    font-size: 105%;
+
 }
 
 a{
@@ -122,12 +148,6 @@ a:hover{
     .topLeft{
         display: none;
     }
-}
-
-@media (max-width: 520px) {
-    header{
-        background-size: auto;
-    }
     #mobile{
         display: block;
         width: 200px;
@@ -139,4 +159,19 @@ a:hover{
         padding: 10px;
         margin: 0 auto;
     }
+}
+
+@media (max-width: 650px) {
+    header{
+        background-size: auto;
+    }
+    
+}
+
+#end{
+    padding-bottom: 60px;
+}
+
+#endSection{
+    padding-bottom: 30px;
 }
