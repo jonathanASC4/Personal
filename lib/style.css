@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url(ocean.jpg);
+    /* image from https://www.flickr.com/photos/apasciuto/32972768576 */
+    background-size: 100%;
+    background-position: center;
+}
+
+.row{
+    padding-top: 20px;
+    color: #ffffff;
+    width: 100%;
+}
+
+.column {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+th{
+    position: relative;
+}
+
+p{
+    font-family: helvetica, sans-serif;
+}
+
+.topLeft{
+    text-align: right;
+    position: absolute;
+    top: 85px;
+    right: 0;
+    font-size: 400%;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#topMiddle{
+    width: 200px;
+}
+
+.topRight{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 95px;
+    font-size: 650%;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#headshot{
+    border: 7px solid black;
+    border-radius: 10px;
+}
