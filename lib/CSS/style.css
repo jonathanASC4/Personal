@@ -74,9 +74,9 @@ th{
 }
 
 section{
-    position: relative;
-    margin-left: 4%;
-    margin-right: 4%;
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 span{
@@ -140,6 +140,12 @@ a:hover{
     to {color: red;}
 }
 
+@media (max-width: 1000px) {
+    section{
+        margin: 0 2%
+    }
+}
+
 @media (max-width: 960px) {
     .topRight{
         display: none;
@@ -148,6 +154,7 @@ a:hover{
     .topLeft{
         display: none;
     }
+
     #mobile{
         display: block;
         width: 200px;
