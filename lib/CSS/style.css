@@ -14,12 +14,13 @@ body{
 }
 
 header{
-    background-image: url(../images/ocean.jpg);
+    background-image: url(../images/subway2.jpg);
     /* image from https://www.flickr.com/photos/apasciuto/32972768576 */
     background-size: 100%;
     background-position: center;
     border-bottom: 10px solid #181818;
-    margin-bottom: 30px;;
+    padding-top: 5px;
+    margin-bottom: 30px;
 }
 
 .row{
@@ -38,39 +39,29 @@ th{
     position: relative;
 }
 
-.topLeft{
-    text-align: right;
-    position: absolute;
-    top: 85px;
-    right: 0;
-    font-size: 400%;
-    background-color: rgba(0, 0, 0, .7);
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#topMiddle{
-    width: 200px;
-}
-
-.topRight{
-    text-align: left;
-    position: absolute;
-    left: 0;
-    top: 95px;
-    font-size: 650%;
-    background-color: rgba(0, 0, 0, .7);
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#headshot{
+img#headshot{
+    display: block;
+    margin-top: 10px;
     border: 7px solid black;
     border-radius: 15px;
+    width: 150px;
+    margin: 0 0 5px 5px;
 }
 
-#mobile{
-    display: none;
+div#mobile{
+    width: 225px;
+    display: block;
+    background-color: black;
+    padding-top: 5px;
+    margin: 0 0 5px 5px;
+}
+
+p#mobile{
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 230%;
+    border-top: 2px solid white;
 }
 
 section{
@@ -88,6 +79,14 @@ span{
 .floatRight{
     float: right;
     margin-right: 20px;
+    margin-left: 15px;
+    width: 25%;
+}
+
+.floatLeft{
+    float: left;
+    margin-left: 20px;
+    width: 25%;
 }
 
 .bodyP{
@@ -146,39 +145,26 @@ a:hover{
     }
 }
 
-@media (max-width: 960px) {
-    .topRight{
-        display: none;
-    }
-
-    .topLeft{
-        display: none;
-    }
-
-    #mobile{
-        display: block;
-        width: 200px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 230%;
-        background-color: rgba(0, 0, 0, .7);
-        border-radius: 10px;
-        padding: 10px;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 684px) {
     header{
         background-size: auto;
     }
+
+    /* img#headshot{
+        display: block;
+        margin: 0 auto;
+    }
     
+    div#mobile{
+        display: block;
+        margin: 4px auto;
+    } */
 }
 
-#end{
+div#end{
     padding-bottom: 60px;
 }
 
-#endSection{
+div#endSection{
     padding-bottom: 30px;
 }
