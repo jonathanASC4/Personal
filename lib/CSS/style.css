@@ -10,12 +10,12 @@
 }
 
 body{
-    background-color: #bbddff;
+    background-color: #fff2c7;
 }
 
 header{
     background-image: url(../images/subway2.jpg);
-    /* image from https://www.flickr.com/photos/apasciuto/32972768576 */
+    /* image from https://commons.m.wikimedia.org/wiki/File:Reopening_of_167_St_on_the_B,_D_lines_(46701858951).jpg */
     background-size: 100%;
     background-position: center;
     border-bottom: 10px solid #181818;
@@ -79,13 +79,14 @@ span{
 .floatRight{
     float: right;
     margin-right: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     width: 25%;
 }
 
 .floatLeft{
     float: left;
     margin-left: 20px;
+    margin-right: 20px;
     width: 25%;
 }
 
