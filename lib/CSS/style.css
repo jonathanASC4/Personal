@@ -1,3 +1,8 @@
+@font-face {
+    font-family: helvetica;
+    src: url('Helvetica Bold.ttf')
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: helvetica, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 body{
@@ -48,15 +53,15 @@ img#headshot{
     margin: 0 0 5px 5px;
 }
 
-div#mobile{
-    width: 285px;
+div#name{
+    width: 300px;
     display: block;
     background-color: black;
     padding-top: 5px;
     margin: 0 0 5px 5px;
 }
 
-p#mobile{
+p#name{
     text-align: center;
     color: #ffffff;
     font-family: Helvetica;
@@ -187,22 +192,12 @@ img.picture{
 
 a{
     font-family: Cambria;
-    color: red;
+    color: #DD0000;
     transition: color 0.7s;
 }
 
 a:hover{
     color: rgb(55, 55, 255);
-}
-
-@keyframes hovering{
-    from {color: red;}
-    to {color: rgb(55, 55, 255);}
-}
-
-@keyframes notHovering{
-    from {color: rgb(55, 55, 255);}
-    to {color: red;}
 }
 
 @media (max-width: 1000px) {
