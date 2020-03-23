@@ -83,12 +83,24 @@
             <span class = "dot" id = "4" onclick = setSlide(4)></span>
         </div>
 
-        <img id = "0" class = "picture" src = "lib/images/dark road.jpg"/>
-        <img id = "1" class = "picture" src = "lib/images/trees.jpg"/>
-        <img id = "2" class = "picture" src = "lib/images/lamp.jpg"/>
-        <img id = "3" class = "picture" src = "lib/images/window.jpg"/>
-        <img id = "4" class = "picture" src = "lib/images/pattern.jpg"/>
-
+        <table>
+            <tr>
+                <th id = "right" onclick = updateSlide(-1)>
+                    <p id = "rightP" class = "side">&#10094;</p>
+                </th>
+                <th id = "middle">
+                    <img id = "0" class = "picture" src = "lib/images/dark road.jpg"/>
+                    <img id = "1" class = "picture" src = "lib/images/trees.jpg"/>
+                    <img id = "2" class = "picture" src = "lib/images/lamp.jpg"/>
+                    <img id = "3" class = "picture" src = "lib/images/window.jpg"/>
+                    <img id = "4" class = "picture" src = "lib/images/pattern.jpg"/>
+                </th>
+                <th id = "left" onclick = updateSlide(1)>
+                    <p id = "leftP" class = "side">&#10095;</p>
+                </th>
+            </tr>
+        </table>
+        
         <div id = "endSection"></div>
     </section>
 

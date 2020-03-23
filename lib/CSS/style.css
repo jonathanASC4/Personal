@@ -139,32 +139,59 @@ h2{
     background-color: #181818;
 }
 
-div#slideshow{
-    display: block;
+table{
+    width: 100%;
+}
+
+th#middle{
     width: 65%;
-    margin: 0 auto;
     border: 5px solid #333333;
     border-radius: 5px;
+}
+
+p.side{
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+th#right{
+    width: 17.5%;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+th#right:hover {
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+th#left{
+    width: 17.5%;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+th#left:hover{
+    background-color: rgba(50, 50, 50, 0.7);
 }
 
 img.picture{
     display: block;
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
-    border: 5px solid #333333;
-    border-radius: 5px;
 }
 
 a{
     font-family: Cambria;
-    animation-name: notHovering;
-    animation-duration: .7s;
     color: red;
+    transition: color 0.7s;
 }
 
 a:hover{
-    animation-name: hovering;
-    animation-duration: .7s;
     color: rgb(55, 55, 255);
 }
 
