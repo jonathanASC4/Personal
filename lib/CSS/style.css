@@ -119,6 +119,42 @@ h2{
 
 }
 
+#dots{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.dot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.dot:hover{
+    background-color: #181818;
+}
+
+div#slideshow{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    border: 5px solid #333333;
+    border-radius: 5px;
+}
+
+img.picture{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    border: 5px solid #333333;
+    border-radius: 5px;
+}
+
 a{
     font-family: Cambria;
     animation-name: notHovering;
@@ -152,16 +188,6 @@ a:hover{
     header{
         background-size: auto;
     }
-
-    /* img#headshot{
-        display: block;
-        margin: 0 auto;
-    }
-    
-    div#mobile{
-        display: block;
-        margin: 4px auto;
-    } */
 }
 
 div#end{
