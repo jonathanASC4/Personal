@@ -76,7 +76,7 @@ section{
 }
 
 span{
-    font-family: Cambria;
+    font-family: Arial;
     font-size: 200%;
     border-bottom: 1px solid black;
 }
@@ -98,7 +98,6 @@ span{
 }
 
 .bodyP{
-    text-indent: 20px;
     margin-top: 20px;
     font-size: 120%;
 }
@@ -191,7 +190,6 @@ img.picture{
 }
 
 a{
-    font-family: Cambria;
     color: #DD0000;
     transition: color 0.7s;
 }
